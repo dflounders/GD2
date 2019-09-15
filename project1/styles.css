@@ -1,1 +1,33 @@
-body {}
+p {
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    line-height: 36px;
+    text-align: center;
+    text-transform: ;
+    letter-spacing: ;
+    font-style: ;
+    font-weight: ;
+}
+
+h1 {
+    font-size: 38px;
+    background-color: red;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 26px;
+    color: red;
+    background-color: ;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: ;
+}
