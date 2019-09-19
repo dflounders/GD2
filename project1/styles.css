@@ -1,26 +1,44 @@
 p {
-    font-size: 22px;
+    font-size: 18px;
     color: black;
     background-color: white;
+
     line-height: 36px;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
 }
+
+blockquote {
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
 
 h1 {
     font-size: 38px;
-    background-color: red;
-    color: white;
+    background-color: rgb(255, 246, 118);
+    color: black;
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+
+
 }
 
 h2 {
     font-size: 26px;
-    color: red;
+    color: black;
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
 }
 
 body {
