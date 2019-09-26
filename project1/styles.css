@@ -11,16 +11,14 @@ h1 {
 .box {
     background-color: rgb(183, 190, 117);
     border: 10px solid rgb(183, 190, 117);
-    height: 150px;
+    height: 125px;
     width: 300px;
     padding: 30px;
     margin: auto;
-    text-align: center;
 }
 
 h2 {
     font-size: 26px;
-    color: black;
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
@@ -31,7 +29,6 @@ h2 {
 
 blockquote {
     font-size: 26px;
-    color: black;
     background-color: whitesmoke;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
@@ -40,7 +37,6 @@ blockquote {
 
 p {
     font-size: 18px;
-    color: black;
     background-color: whitesmoke;
     line-height: 1.5;
     text-align: center;
@@ -53,9 +49,7 @@ p {
 body {
     background-color: whitesmoke;
     padding-top: 48px;
-    padding-bottom: 22px;
-    padding-right: 12px;
-    padding-left: 12px;
+    padding-bottom: 52px;
     margin-right: 10%;
     margin-left: 10%;
 }
