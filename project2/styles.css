@@ -1,0 +1,39 @@
+body {
+    padding: 60px;
+}
+
+div {
+    background-color: #faf4e3;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 258px;
+    width: 493px;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 34px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 22px;
+}
+
+p {
+    text-align: right;
+    font-size: 18px;
+}
+
+.button-reset {
+    background: #395527;
+    border-radius: 10px;
+    text-color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
