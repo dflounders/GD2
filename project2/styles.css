@@ -4,7 +4,7 @@ body {
 
 div {
     background-color: #faf4e3;
-    border: 2px solid black;
+    border: 2px solid #686868;
     border-radius: 8px;
     height: 258px;
     width: 493px;
@@ -16,24 +16,29 @@ div {
 h1 {
     text-align: left;
     font-size: 34px;
+    color: #395527;
+
 }
 
 h2 {
     text-align: left;
     font-size: 22px;
+    color: #686868;
+
 }
 
 p {
     text-align: right;
     font-size: 18px;
+    color: #686868;
+
 }
 
 .button-reset {
     background: #395527;
     border-radius: 10px;
-    text-color: white;
+    color: #faf4e3;
     font-size: 20px;
     padding: 10px;
     text-align: center;
-
 }
