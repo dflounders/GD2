@@ -31,6 +31,12 @@ p {
     color: #686868;
 }
 
+ul {
+    text-align: justify;
+    font-size: 18px;
+    color: #686868;
+}
+
 .button-reset {
     background: #395527;
     border-radius: 10px;
