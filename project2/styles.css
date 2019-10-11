@@ -1,5 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: ;
+    color: #686868;
+    font-family: ;
+    font-size: 18px;
+    padding: 50px 12%;
 }
 
 div {
@@ -9,32 +20,27 @@ div {
     height: 258px;
     width: 640px;
     padding: 5px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h1 {
-    text-align: left;
-    font-size: 34px;
-    color: #395527;
 }
 
 h2 {
     text-align: left;
+    font-size: 34px;
+    color: #395527;
+
+}
+
+h3 {
+    text-align: left;
     font-size: 22px;
-    color: #686868;
 }
 
 p {
     text-align: justify;
-    font-size: 18px;
-    color: #686868;
+    margin-right: 5%;
 }
 
 ul {
     text-align: justify;
-    font-size: 18px;
-    color: #686868;
 }
 
 .button-reset {
@@ -44,8 +50,4 @@ ul {
     font-size: 20px;
     padding: 10px;
     text-align: center;
-}
-
-main {
-    padding: 52px 12%;
 }
