@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+section {
+    padding: 50px 12%;
+
+}
+
 body {
     padding: 60px;
     margin-right: auto;
@@ -10,7 +15,7 @@ body {
     color: #686868;
     font-family: ;
     font-size: 18px;
-    padding: 50px 12%;
+
 }
 
 div {
@@ -26,7 +31,6 @@ h2 {
     text-align: left;
     font-size: 34px;
     color: #395527;
-
 }
 
 h3 {
@@ -41,6 +45,13 @@ p {
 
 ul {
     text-align: justify;
+    padding-left: 0;
+    column-count: 2;
+}
+
+li {
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .button-reset {
