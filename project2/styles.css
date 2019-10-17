@@ -79,16 +79,17 @@ ul {
 }
 
 .secondheader {
-    width: 22%;
+    width: 25%;
     margin-top: 17;
 }
 
 .ingredients {
     background-color: #faf4e3;
     border: 0px solid #686868;
-    width: 66%;
-    padding-right: 5px;
-    margin-top: 0;
+    width: 65%;
+    border-top: 1.5px solid#395527;
+    border-radius: 0px;
+    padding-top: 20px;
 }
 
 .second {
@@ -123,10 +124,41 @@ ul {
     background-color: #faf4e3;
     border: 0px solid #686868;
     width: 65%;
-    padding-top: 20px;
     margin-top: 0;
     column-count: 2;
     column-gap: 20px;
     border-top: 1.5px solid#395527;
+    padding-top: 20px;
+}
 
+.socials {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.links {
+    display: inline-block;
+
+}
+
+.links+.links {
+    margin-left: 15px;
+}
+
+.links,
+a {
+    background-color: #395527;
+    font-family: "Notos Sans JP", sans-serif;
+    font-weight: 700;
+    color: #faf4e3;
+    font-size: 18px;
+    text-decoration: none;
+    max-width: 100px;
+    max-height: 75px;
+
+}
+
+.links a:hover {
+    background-color: red;
 }
