@@ -24,12 +24,14 @@ header {
     width: 640px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+
 }
 
 .title {
     display: block;
-    padding-left: 10px;
-    padding-top: 250px;
+    padding-left: 30px;
+    padding-top: 20px;
 }
 
 
@@ -49,19 +51,30 @@ h2 {
     font-weight: 700;
 }
 
+.subhead {
+    text-align: left;
+    padding-left: 30px;
+}
+
 h3 {
     text-align: right;
     font-size: 22px;
     font-family: "Notos Sans JP", sans-serif;
     font-weight: 700;
     padding-right: 30px;
-
-
 }
 
 h3:hover {
     color: #223b12;
-    transition: 1s;
+    transition: 400ms;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: left;
+    font-size: 22px;
+    font-family: "Notos Sans JP", sans-serif;
+    font-weight: 700;
 }
 
 p {
@@ -121,7 +134,6 @@ ul {
 .copy {
     display: inline-block;
     vertical-align: top;
-
 }
 
 .third {
@@ -164,8 +176,6 @@ ul {
     display: inline-block;
 }
 
-.links+.links {}
-
 .links,
 a {
     border: 5px solid transparent;
@@ -178,12 +188,12 @@ a {
 }
 
 .links a:active {
-    background-color: #faf4e3;
+    background-color: white;
 }
 
 .links a:hover,
 .links a:focus {
-    border-color: #faf4e3;
-    color: #faf4e3;
+    border-color: white;
+    color: white;
     padding: 7px;
 }
