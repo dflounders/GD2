@@ -2,48 +2,66 @@
     box-sizing: border-box;
 }
 
+body {
+    color: #686868;
+    font-size: 18px;
+}
+
 section {
-    padding: 50px 12%;
     background-color: #faf4e3;
     max-width: 640px;
     margin-right: auto;
     margin-left: auto;
 }
 
-body {
-    background-color: ;
-    color: #686868;
-    font-family: ;
-    font-size: 18px;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-div {
-    background-color: white;
-    border: 2px solid #686868;
-    border-radius: 8px;
-    height: 258px;
+header {
+    background-image: url(images/shrimps_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    height: 300px;
     width: 640px;
-    padding-left: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.title {
+    display: block;
+    padding-left: 10px;
+    padding-top: 250px;
+}
+
+
+div {
+    height: 258px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+}
+
 h2 {
     text-align: left;
-    font-size: 34px;
-    color: #395527;
-    padding-left: 10px;
+    font-size: 42px;
+    color: #223b12;
     font-family: "Notos Sans JP", sans-serif;
     font-weight: 700;
 }
 
 h3 {
-    text-align: left;
+    text-align: right;
     font-size: 22px;
     font-family: "Notos Sans JP", sans-serif;
     font-weight: 700;
+    padding-right: 30px;
+
+
+}
+
+h3:hover {
+    color: #223b12;
+    transition: 1s;
 }
 
 p {
@@ -54,17 +72,18 @@ p {
 }
 
 ul {
-    text-align: justify;
+    text-align: left;
     column-count: 2;
     column-gap: 35px;
     font-family: "Merriweather", serif;
     font-weight: 700;
     line-height: 2.5;
     font-size: 13px;
+    padding-left: 0px;
 }
 
 .button-reset {
-    background: #395527;
+    background: #223b12;
     border-radius: 10px;
     color: #faf4e3;
     font-size: 20px;
@@ -80,16 +99,15 @@ ul {
 
 .secondheader {
     width: 25%;
-    margin-top: 17;
+    margin-top: 13;
 }
 
 .ingredients {
     background-color: #faf4e3;
     border: 0px solid #686868;
     width: 65%;
-    border-top: 1.5px solid#395527;
+    border-top: 1.5px solid#223b12;
     border-radius: 0px;
-    padding-top: 20px;
 }
 
 .second {
@@ -127,38 +145,45 @@ ul {
     margin-top: 0;
     column-count: 2;
     column-gap: 20px;
-    border-top: 1.5px solid#395527;
+    border-top: 1.5px solid#223b12;
     padding-top: 20px;
+}
+
+.bottom {
+    background-color: #686868;
 }
 
 .socials {
     list-style: none;
     padding-left: 0;
     text-align: center;
+    margin-top: 0px;
 }
 
 .links {
     display: inline-block;
-
 }
 
-.links+.links {
-    margin-left: 15px;
-}
+.links+.links {}
 
 .links,
 a {
-    background-color: #395527;
+    border: 5px solid transparent;
+    border-radius: 3px;
+    color: #faf4e3;
+    text-decoration: none;
     font-family: "Notos Sans JP", sans-serif;
     font-weight: 700;
-    color: #faf4e3;
-    font-size: 18px;
-    text-decoration: none;
-    max-width: 100px;
-    max-height: 75px;
-
+    font-size: 12px;
 }
 
-.links a:hover {
-    background-color: red;
+.links a:active {
+    background-color: #faf4e3;
+}
+
+.links a:hover,
+.links a:focus {
+    border-color: #faf4e3;
+    color: #faf4e3;
+    padding: 7px;
 }
