@@ -18,12 +18,7 @@ header {
     background-image: url(images/shrimps_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center;
-    background-position-x: center;
     height: 300px;
-    width: 640px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 5px;
 
 }
@@ -38,9 +33,6 @@ header {
 div {
     height: 258px;
     padding-left: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 640px;
 }
 
 h2 {
@@ -77,6 +69,7 @@ h4 {
     font-family: "Notos Sans JP", sans-serif;
     font-weight: 700;
     margin-top: 0px;
+
 }
 
 p {
@@ -126,9 +119,6 @@ ul {
 }
 
 .second {
-    max-width: 640px;
-    margin-right: auto;
-    margin-left: auto;
     padding: 30px;
 }
 
@@ -139,9 +129,6 @@ ul {
 }
 
 .third {
-    max-width: 640px;
-    margin-right: auto;
-    margin-left: auto;
     padding: 30px;
 }
 
