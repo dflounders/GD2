@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+​ .button-reset[disabled] {
+    cursor: default;
+}
+
+.input,
+.textarea,
+.select {
+    font-family: inherit;
+    font-size: inherit
+}
