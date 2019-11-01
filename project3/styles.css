@@ -23,3 +23,60 @@
     font-family: inherit;
     font-size: inherit
 }
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+select {
+    cursor: pointer;
+}
+
+textarea {
+    height: 300px;
+    width: 900px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    -moz-animation: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 2px solid black;
+    height: 12px;
+    width: 12px;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked,
+input[type="checkbox"]:checked {
+    background-color: green;
+    border-color: green;
+}
+
+input[type="radio"]:checked+label,
+input[type="checkbox"]:checked+label {
+    color: green;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    border-color: yellowgreen;
+}
+
+input[type="text"]:required:valid,
+input[type="email"]:required:valid,
+input[type="number"]:required:valid {
+    border-color: green;
+}
+
+input[type="text"]:not(:placeholder-shown):invalid,
+input[type="email"]:not(:placeholder-shown):invalid,
+input[type="number"]:not(:placeholder-shown):invalid {
+    border-color: red;
+}
