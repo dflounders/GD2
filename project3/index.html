@@ -25,48 +25,68 @@
         <label for="powers">Describe Your Powers </label>
         <textarea name="" id="powers"></textarea>
 
-        <label for="speed">Speed</label>
-        <select name="" id="speed">
-            <option value="testing">Testing</option>
-            <option value="another">Another</option>
-        </select>
+        <section>
+            <label for="age">Age</label>
+            <input id="age" type="number" placeholder="" required>
 
-        <label for="speed">Speed</label>
-        <select name="" id="speed">
-            <option value="testing">Testing</option>
-            <option value="another">Another</option>
-        </select>
+            <fieldset>
+                <legend>Category</legend>
 
+                <p>
+                    Please select as many as apply to your origin and how you gain your powers.
+                </p>
 
-        <label for="speed">Speed</label>
-        <select name="" id="speed">
-            <option value="testing">Testing</option>
-            <option value="another">Another</option>
-        </select>
+                <input id="alien" type="checkbox">
+                <label for="alien">Alien</label>
 
-        <fieldset>
-            <legend>Category</legend>
+                <input id="cyborg" type="checkbox">
+                <label for="cyborg">Cyborg</label>
 
-            <input id="alien" type="checkbox">
-            <label for="alien">Alien</label>
+                <input id="experiment" type="checkbox">
+                <label for="experiment">Experiment</label>
 
-            <input id="cyborg" type="checkbox">
-            <label for="cyborg">Cyborg</label>
-        </fieldset>
+                <input id="human" type="checkbox">
+                <label for="human">Human</label>
 
-        <fieldset>
-            <legend>Gender</legend>
+                <input id="inhuman" type="checkbox">
+                <label for="inhuman">Inhuman</label>
 
-            <input name="gender" id="women" type="radio">
-            <label for="women">A Women</label>
-            <input name="gender" id="man" type="radio">
-            <label for="man">A Man</label>
-            <input name="gender" id="nonbinary" type="radio">
-            <label for="nonbinary">Nonbinary</label>
-        </fieldset>
+                <input id="mutant" type="checkbox">
+                <label for="mutant">Mutant</label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Gender</legend>
+
+                <input name="gender" id="women" type="radio">
+                <label for="women">A Women</label>
+                <input name="gender" id="man" type="radio">
+                <label for="man">A Man</label>
+                <input name="gender" id="nonbinary" type="radio">
+                <label for="nonbinary">Nonbinary</label>
+            </fieldset>
+        </section>
         <button class="button-reset" type="submit">Register Now</button>
 
+        <section>
+            <label for="speed">Strength</label>
+            <select name="" id="speed">
+                <option value="within human norms">Within Human Norms</option>
+                <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            </select>
+
+            <label for="speed">Speed</label>
+            <select name="" id="speed">
+                <option value="within human norms">Within Human Norms</option>
+                <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            </select>
+
+            <label for="intelligance">Intelligance</label>
+            <select name="" id="speed">
+                <option value="within human norms">Within Human Norms</option>
+                <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            </select>
+        </section>
     </form>
 </body>
 
