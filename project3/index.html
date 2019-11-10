@@ -12,11 +12,12 @@
 </head>
 
 <body>
-    <section class="top">
-        <h1> SUPER HERO REGISTRY </h1>
-        <p class="caption"> with great power there must also come-great responsibility</p>
-    </section>
-    <wrap>
+    <div>
+        <section class="top">
+            <h1> SUPER HERO REGISTRY </h1>
+            <p class="caption"> with great power there must also come-great responsibility</p>
+        </section>
+
         <section>
             <h2> IDENTITY </h2>
 
@@ -72,11 +73,11 @@
                 <label for="nonbinary">Nonbinary</label>
             </fieldset>
         </section>
-        <button class="button-reset" type="submit">Register Now</button>
-
-        <label for="powers">Describe Your Powers </label>
-        <textarea name="" id="powers"></textarea>
-
+        <section>
+            <h2> POWERS & ABILITIES</h2>
+            <label for="powers">Describe Your Powers </label>
+            <textarea name="" id="powers"></textarea>
+        </section>
         <section>
             <label for="speed">Strength</label>
             <select name="" id="speed">
@@ -94,9 +95,12 @@
             <select name="" id="speed">
                 <option value="within human norms">Within Human Norms</option>
                 <option value="significantly beyond norms">Significantly Beyond Norms</option>
+
+                <button class="button-reset" type="submit">Register Now</button>
+
             </select>
         </section>
-    </wrap>
+    </div>
     </form>
 </body>
 
