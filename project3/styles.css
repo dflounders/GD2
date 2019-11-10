@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #163346;
+}
+
+div {
+    background-color: #1e2019;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 .sr-only {
     border: 0;
     clip: rect(0 0 0 0);
@@ -13,6 +25,14 @@
     position: absolute !important;
     height: 1px;
     width: 1px;
+}
+
+section {
+    background-color: #1e2019;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+
 }
 
 .button-reset {
@@ -92,4 +112,40 @@ input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
     border-color: red;
+}
+
+p {
+    font-family: "Benchnine", monospace;
+    font-size: 18px;
+    color: #cececd;
+}
+
+h1 {
+    font-family: "Teko", sans-serif;
+    font-size: 48px;
+    color: #1e2019;
+    text-align: center;
+
+}
+
+.top {
+    background-color: #cececd;
+    max-width: 100%;
+
+}
+
+.caption {
+    font-family: "teko", sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: #1e2019;
+
+
+
+}
+
+h2 {
+    font-family: "Teko", sans-serif;
+    font-size: 40px;
+    color: #cececd;
 }

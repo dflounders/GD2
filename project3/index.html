@@ -5,27 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Teko:500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=BenchNine:300,400,700&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
-    <form action="">
-        <label for="full-name">Full Name</label>
-        <input id="full-name" type="text" placeholder="" required>
-
-        <label for="tel-number">Telephone Number</label>
-        <input id="tel-number" type="number" placeholder="" required>
-
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="" required>
-
-
-        <label for="powers">Describe Your Powers </label>
-        <textarea name="" id="powers"></textarea>
-
+    <section class="top">
+        <h1> SUPER HERO REGISTRY </h1>
+        <p class="caption"> with great power there must also come-great responsibility</p>
+    </section>
+    <wrap>
         <section>
+            <h2> IDENTITY </h2>
+
+            <form action="">
+                <label for="real-name">Real Name</label>
+                <input id="real-name" type="text" placeholder="" required>
+
+                <label for="alias">Alias</label>
+                <input id="alias" type="text" placeholder="" required>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="" required>
+        </section>
+        <section>
+            <h2> PERSONAL CHARACTERISTICS </h2>
             <label for="age">Age</label>
             <input id="age" type="number" placeholder="" required>
 
@@ -68,6 +74,9 @@
         </section>
         <button class="button-reset" type="submit">Register Now</button>
 
+        <label for="powers">Describe Your Powers </label>
+        <textarea name="" id="powers"></textarea>
+
         <section>
             <label for="speed">Strength</label>
             <select name="" id="speed">
@@ -87,6 +96,7 @@
                 <option value="significantly beyond norms">Significantly Beyond Norms</option>
             </select>
         </section>
+    </wrap>
     </form>
 </body>
 
