@@ -96,8 +96,8 @@ input[type="radio"] {
 
 input[type="radio"]:checked,
 input[type="checkbox"]:checked {
-    background-color: green;
-    border-color: green;
+    background-color: #71f79f;
+    border-color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 22px;
     font-size: #cececd;
@@ -106,7 +106,7 @@ input[type="checkbox"]:checked {
 
 input[type="radio"]:checked+label,
 input[type="checkbox"]:checked+label {
-    color: green;
+    color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 22px;
     color: #cececd;
@@ -115,7 +115,7 @@ input[type="checkbox"]:checked+label {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus {
-    border-color: yellowgreen;
+    border-color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
@@ -124,7 +124,7 @@ input[type="number"]:focus {
 input[type="text"]:required:valid,
 input[type="email"]:required:valid,
 input[type="number"]:required:valid {
-    border-color: green;
+    border-color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
@@ -133,7 +133,7 @@ input[type="number"]:required:valid {
 input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
-    border-color: red;
+    border-color: #C61A3A;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
