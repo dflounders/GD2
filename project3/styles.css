@@ -85,6 +85,28 @@ svg {
     bottom: 20px;
 }
 
+.d {
+    display: block;
+    padding-bottom: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.bulb {
+    position: ;
+
+}
+
+.clock {
+    position: ;
+
+}
+
+.muscle {
+    position: ;
+
+}
+
 textarea {
     height: 120%;
     width: 75%;
@@ -138,7 +160,6 @@ input[type="checkbox"]:hover {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus {
-    border-color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
@@ -147,7 +168,9 @@ input[type="number"]:focus {
 input[type="text"]:required:valid,
 input[type="email"]:required:valid,
 input[type="number"]:required:valid {
-    border-color: #71f79f;
+
+    text-decoration-color: #71f79f;
+    text-decoration: underline;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
@@ -156,7 +179,8 @@ input[type="number"]:required:valid {
 input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
-    border-color: #C61A3A;
+    text-decoration-color: #c61a3a;
+    text-decoration: underline;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
