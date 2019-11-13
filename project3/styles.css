@@ -69,7 +69,20 @@ section {
 fieldset {
     border: 2px;
     padding: 2px;
+    display: inline-block;
 }
+
+.check {
+    width: 250px;
+    height: 350px;
+
+}
+
+.rad {
+    width: 250px;
+    height: 350px;
+}
+
 
 select {
     cursor: pointer;
@@ -168,9 +181,7 @@ input[type="number"]:focus {
 input[type="text"]:required:valid,
 input[type="email"]:required:valid,
 input[type="number"]:required:valid {
-
-    text-decoration-color: #71f79f;
-    text-decoration: underline;
+    border-bottom-color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
@@ -179,8 +190,7 @@ input[type="number"]:required:valid {
 input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
-    text-decoration-color: #c61a3a;
-    text-decoration: underline;
+    border-bottom-color: #c61a3a;
     font-family: "Benchnine", monospace;
     font-size: 18px;
     color: #1e2019;
