@@ -67,8 +67,8 @@ section {
 }
 
 fieldset {
-    border: 0;
-    padding: 0;
+    border: 2px;
+    padding: 2px;
 }
 
 select {
@@ -106,23 +106,23 @@ input[type="radio"] {
     border-radius: 50%;
 }
 
+
 input[type="radio"]:checked,
 input[type="checkbox"]:checked {
     background-color: #71f79f;
-    border-color: #71f79f;
-    font-family: "Benchnine", monospace;
-    font-size: 22px;
+    border-color: #d1d5de;
     font-size: #cececd;
-
-}
-
-input[type="radio"]:checked+label,
-input[type="checkbox"]:checked+label {
-    color: #71f79f;
     font-family: "Benchnine", monospace;
     font-size: 22px;
-    color: #cececd;
 }
+
+input[type="radio"]:hover,
+input[type="checkbox"]:hover {
+    background-color: #1e2019;
+    border: 1px solid #71f79f;
+}
+
+
 
 input[type="text"]:focus,
 input[type="email"]:focus,
