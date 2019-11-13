@@ -75,14 +75,13 @@ select {
     cursor: pointer;
 }
 
-svg {
-    max-width: 240px;
-    max-height: 239px;
-    display: inline-block;
-    position: relative;
-    left: 35%;
-    top: 40px;
-    bottom: 20px;
+.shield {
+    width: 240px;
+    height: 239px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
 }
 
 .d {
