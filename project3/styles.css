@@ -75,10 +75,22 @@ select {
     cursor: pointer;
 }
 
-textarea {
-    height: 300px;
-    width: 900px;
+svg {
+    max-width: 240px;
+    max-height: 239px;
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    top: 40px;
+    bottom: 20px;
 }
+
+textarea {
+    height: 120%;
+    width: 75%;
+}
+
+input[type="textarea"]:focus {}
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -156,6 +168,7 @@ h1 {
 .top {
     background-color: #cececd;
     max-width: 100%;
+
 
 }
 
