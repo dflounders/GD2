@@ -63,31 +63,13 @@ section {
 }
 
 fieldset {
-    border: 2px;
-    padding: 2px;
+    border: 0px;
+    padding: 0px;
     margin-right: auto;
     margin-left: auto;
     max-width: 70%;
-}
-
-.check,
-.rad {
     display: inline-block;
-    vertical-align: top;
 }
-
-.check {
-    width: 60%;
-    height: 60%;
-
-}
-
-.rad {
-    width: 25%;
-    height: 25%;
-    left: 40px;
-}
-
 
 select {
     cursor: pointer;
