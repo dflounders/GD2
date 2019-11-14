@@ -97,7 +97,9 @@ select {
     height: 75px;
     font-family: "Benchnine", monospace;
     font-size: 18px;
+    text-align: center;
     color: #1e2019;
+
 }
 
 .shield {
@@ -271,14 +273,13 @@ h2 {
     background-color: #71f79f;
     border: 0;
     cursor: pointer;
-    font-weight: inherit;
     padding: 20px 20px;
+    font-weight: inherit;
     text-align: center;
     font-family: "Teko", sans-serif;
     font-size: 30px;
     display: inline-block;
-    position: relative;
-    left: 38%;
+
 }
 
 .button-reset:hover {
