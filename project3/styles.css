@@ -77,14 +77,15 @@ fieldset {
 }
 
 .check {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 
 }
 
 .rad {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
+    left: 40px;
 }
 
 
