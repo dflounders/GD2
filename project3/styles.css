@@ -69,18 +69,26 @@ section {
 fieldset {
     border: 2px;
     padding: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 70%;
+}
+
+.check,
+.rad {
     display: inline-block;
+    vertical-align: top;
 }
 
 .check {
-    width: 250px;
-    height: 350px;
+    width: 50%;
+    height: 50%;
 
 }
 
 .rad {
-    width: 250px;
-    height: 350px;
+    width: 30%;
+    height: 30%;
 }
 
 
@@ -99,25 +107,28 @@ select {
 }
 
 .d {
-    display: block;
+    display: inline-block;
     padding-bottom: 30px;
-    width: 100px;
-    height: 100px;
+    margin: 30px 10px;
+    width: 150px;
+    height: 150px;
 }
 
 .bulb {
-    position: ;
+    position: relative;
+    left: 28%;
 
 }
 
 .clock {
-    position: ;
+    position: relative;
+    left: 13%;
 
 }
 
 .muscle {
-    position: ;
-
+    position: relative;
+    left: 2%;
 }
 
 textarea {
