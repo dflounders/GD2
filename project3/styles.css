@@ -77,20 +77,27 @@ fieldset {
 }
 
 .check {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
 
 }
 
 .rad {
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
     left: 40px;
 }
 
 
 select {
     cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 75px;
+    font-family: "Benchnine", monospace;
+    font-size: 18px;
+    color: #1e2019;
 }
 
 .shield {
@@ -104,33 +111,34 @@ select {
     background-color: #cececd;
 }
 
-.d {
+.scroll {
     display: inline-block;
-    margin: 30px 10px;
-    padding: 20px;
+}
 
+.d {
+    padding: 20px;
 }
 
 .bulb {
     position: relative;
-    top: 15px;
-    left: 18%;
+    top: 20px;
+    left: 5px;
     width: 180px;
     height: 180px;
 }
 
 .clock {
     position: relative;
-    top: 15px;
-    left: 10%;
+    top: 20px;
+    left: 5px;
     width: 180px;
     height: 180px;
 }
 
 .muscle {
     position: relative;
-    top: 15px;
-    left: 2%;
+    top: 20px;
+    left: 5px;
     width: 180px;
     height: 180px;
 }

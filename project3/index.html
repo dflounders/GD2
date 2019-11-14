@@ -93,7 +93,8 @@
             <label for="powers">Describe Your Powers </label>
             <textarea name="" id="powers"></textarea>
         </section>
-        <section>
+        <section class="scrolls">
+
             <div class="d muscle">
                 <?xml version="1.0" encoding="utf-8"?>
                 <svg viewBox="3.654 2.709 58.553 58.696" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +145,13 @@
                             d="M 9.453 7.782 C 9.453 7.222 8.999 6.768 8.439 6.768 C 7.879 6.768 7.424 7.222 7.424 7.782 L 7.424 18.943 C 7.424 19.504 7.879 19.958 8.439 19.958 C 8.999 19.958 9.453 19.504 9.453 18.943 L 9.453 7.782 Z"
                             style="fill: rgb(255, 255, 255);" />
                     </g>
-                </svg> </div>>
+                </svg> </div>
+            <label for="strength">Strength</label>
+            <select name="" id="strength">
+                <option value="within human norms">Within Human Norms</option>
+                <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            </select>
+
             <div class="d clock">
                 <?xml version="1.0" encoding="utf-8"?>
                 <svg viewBox="4.921 6 88 88" xmlns="http://www.w3.org/2000/svg">
@@ -183,6 +190,13 @@
                             style="stroke-width: 0.564843px; fill: rgb(255, 255, 255); stroke: rgb(255, 255, 255);" />
                     </g>
                 </svg></div>
+            <label for="speed">Speed</label>
+            <select name="" id="speed">
+                <option value="within human norms">Within Human Norms</option>
+                <option value="significantly beyond norms">Significantly Beyond Norms</option>
+            </select>
+
+
             <div class="d bulb">
                 <?xml version="1.0" encoding="utf-8"?>
                 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
@@ -320,21 +334,6 @@
                         d="M120,46c0-1.1044998-0.8955002-2-2-2s-2,0.8955002-2,2v22c0,1.1044998,0.8955002,2,2,2s2-0.8955002,2-2V46z"
                         style="fill: rgb(255, 255, 255);" />
                 </svg> </div>
-
-        </section>
-        <section class="scrolls">
-            <label for="strength">Strength</label>
-            <select name="" id="strength">
-                <option value="within human norms">Within Human Norms</option>
-                <option value="significantly beyond norms">Significantly Beyond Norms</option>
-            </select>
-
-            <label for="speed">Speed</label>
-            <select name="" id="speed">
-                <option value="within human norms">Within Human Norms</option>
-                <option value="significantly beyond norms">Significantly Beyond Norms</option>
-            </select>
-
             <label for="intelligance">Intelligance </label>
             <select name="" id="intelligance">
                 <option value="within human norms">Within Human Norms</option>
@@ -343,8 +342,16 @@
 
             </select>
         </section>
+
+
         <section class="button">
+            <p>
+                <input id="confirm" type="checkbox">
+                <label for="confirm">I confirm the above information represents my current details and
+                    is crrect to the best of my knowledge</label>
+            </p>
             <button class="button-reset" type="submit">Register Now</button>
+
         </section>
         </section>
     </div>
