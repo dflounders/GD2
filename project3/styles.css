@@ -8,7 +8,7 @@ body {
     background-color: #163346;
 }
 
-div {
+form {
     background-color: #1e2019;
     max-width: 70%;
     margin-right: auto;
@@ -25,6 +25,7 @@ label {
     font-size: 22px;
     color: #cececd;
 }
+
 
 legend {
     font-family: "Benchnine", monospace;
@@ -73,7 +74,6 @@ fieldset {
 
 select {
     cursor: pointer;
-    display: inline-block;
     position: relative;
     width: 200px;
     height: 75px;
@@ -95,36 +95,36 @@ select {
     background-color: #cececd;
 }
 
-.scroll {
-    display: inline-block;
+.icons {
+    padding: 10px;
+    text-align: center;
 }
 
-.d {
-    padding: 20px;
+@media (min-width:900px) {
+    .icons {
+        display: inline-block;
+        width: 30%;
+        position: relative;
+    }
 }
 
 .bulb {
-    position: relative;
-    top: 20px;
-    left: 5px;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 150px;
 }
 
 .clock {
-    position: relative;
-    top: 20px;
-    left: 5px;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 150px;
+
 }
 
 .muscle {
-    position: relative;
-    top: 20px;
-    left: 5px;
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 150px;
 }
 
 textarea {
@@ -157,13 +157,7 @@ input[type="checkbox"]:checked {
     font-size: #cececd;
     font-family: "Benchnine", monospace;
     font-size: 22px;
-
-    text-decoration-color: #71f79f;
-    text-decoration-line: 2px;
-    text-decoration: underline;
-    transition: 400ms;
 }
-
 
 input[type="radio"]:checked {
     background-color: #71f79f;
@@ -171,13 +165,13 @@ input[type="radio"]:checked {
     font-size: #cececd;
     font-family: "Benchnine", monospace;
     font-size: 22px;
-
-    text-decoration-color: #71f79f;
-    text-decoration-line: 2px;
-    text-decoration: underline;
-    transition: 400ms;
 }
 
+input[type="checkbox"]:checked+label,
+input[type="radio"]:checked+label {
+    text-decoration: underline;
+    text-decoration-color: #71f79f;
+}
 
 input[type="radio"]:hover,
 input[type="checkbox"]:hover {
@@ -185,13 +179,18 @@ input[type="checkbox"]:hover {
     border: 1px solid #71f79f;
 }
 
-
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    font-family: "Benchnine", monospace;
+    font-size: 18px;
+    color: #1e2019;
+    display: block;
+}
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus {
-    font-family: "Benchnine", monospace;
-    font-size: 18px;
     color: #1e2019;
 }
 
@@ -260,7 +259,6 @@ h2 {
     text-align: center;
     font-family: "Teko", sans-serif;
     font-size: 30px;
-    display: inline-block;
 
 }
 
