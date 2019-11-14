@@ -13,6 +13,11 @@ div {
     max-width: 70%;
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
+
+    display: block;
+    position: relative;
+    bottom: 50px;
 }
 
 label {
@@ -43,20 +48,6 @@ section {
     margin-right: auto;
     margin-left: auto;
     max-width: 70%;
-
-}
-
-.button-reset {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-weight: inherit;
-    padding: 0;
-    text-align: left;
-}
-
-​ .button-reset[disabled] {
-    cursor: default;
 }
 
 .input,
@@ -65,6 +56,7 @@ section {
     font-family: inherit;
     font-size: inherit;
 }
+
 
 .age {
     padding-bottom: 30px;
@@ -104,9 +96,10 @@ select {
     width: 240px;
     height: 239px;
     display: block;
+    position: relative;
+    top: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 1%;
     background-color: #cececd;
 }
 
@@ -119,23 +112,26 @@ select {
 
 .bulb {
     position: relative;
-    left: 28%;
-    width: 200px;
-    height: 200px;
+    top: 15px;
+    left: 18%;
+    width: 180px;
+    height: 180px;
 }
 
 .clock {
     position: relative;
-    left: 13%;
-    width: 200px;
-    height: 200px;
+    top: 15px;
+    left: 10%;
+    width: 180px;
+    height: 180px;
 }
 
 .muscle {
     position: relative;
+    top: 15px;
     left: 2%;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 textarea {
@@ -145,7 +141,6 @@ textarea {
 
 textarea:hover {
     border: 1px solid #71f79f;
-
 }
 
 input[type="radio"],
@@ -241,6 +236,7 @@ h1 {
 .top {
     background-color: #cececd;
     max-width: 100%;
+    padding-bottom: 40px;
 }
 
 .caption {
@@ -254,4 +250,34 @@ h2 {
     font-family: "Teko", sans-serif;
     font-size: 40px;
     color: #cececd;
+}
+
+.button {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.button-reset {
+    background: transparent;
+    background-color: #71f79f;
+    border: 0;
+    cursor: pointer;
+    font-weight: inherit;
+    padding: 20px 20px;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    left: 38%;
+}
+
+.button-reset:hover {
+    background-color: #cececd;
+    color: #1e2019;
+
+}
+
+​ .button-reset[disabled] {
+    cursor: default;
 }
