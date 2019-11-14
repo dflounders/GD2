@@ -43,7 +43,7 @@
                 <label for="email">Email</label>
                 <input id="email" type="email" placeholder="" required>
         </section>
-        <section>
+        <section class="age">
             <h2> PERSONAL CHARACTERISTICS </h2>
             <label for="age">Age</label>
             <input id="age" type="number" placeholder="" required>
@@ -77,13 +77,16 @@
 
             <fieldset class="rad">
                 <legend>Gender</legend>
+                <p>
+                    <input name="gender" id="women" type="radio">
+                    <label for="women">A Women</label>
 
-                <input name="gender" id="women" type="radio">
-                <label for="women">A Women</label>
-                <input name="gender" id="man" type="radio">
-                <label for="man">A Man</label>
-                <input name="gender" id="nonbinary" type="radio">
-                <label for="nonbinary">Nonbinary</label>
+                    <input name="gender" id="man" type="radio">
+                    <label for="man">A Man</label>
+
+                    <input name="gender" id="nonbinary" type="radio">
+                    <label for="nonbinary">Nonbinary</label>
+                </p>
             </fieldset>
         </section>
         <section>
