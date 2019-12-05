@@ -135,13 +135,11 @@ ol {
     padding: 10px;
 }
 
-
-input[type="radio"],
-input[type="checkbox"] {
+input[type="radio"] {
     -moz-animation: none;
     -webkit-appearance: none;
     appearance: none;
-    border: 1px solid #cececd;
+    border: 1px solid rgb(151, 111, 73);
     height: 20px;
     width: 20px;
 }
@@ -150,43 +148,33 @@ input[type="radio"] {
     border-radius: 50%;
 }
 
-
-input[type="checkbox"]:checked {
-    background-color: #71f79f;
-    border-color: #d1d5de;
-    font-size: #cececd;
-    font-family: "Benchnine", monospace;
-    font-size: 22px;
-}
-
 input[type="radio"]:checked {
-    background-color: #71f79f;
-    border-color: #d1d5de;
-    font-size: #cececd;
-    font-family: "Benchnine", monospace;
-    font-size: 22px;
+    background-color: #333;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
-input[type="checkbox"]:checked+label,
 input[type="radio"]:checked+label {
     text-decoration: underline;
-    text-decoration-color: #71f79f;
+    text-decoration-color: #333;
 }
 
-input[type="radio"]:hover,
-input[type="checkbox"]:hover {
-    background-color: #1e2019;
-    border: 1px solid #71f79f;
+input[type="radio"]:hover {
+    background-color: #333;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="number"] {
-    font-family: "Benchnine", monospace;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    color: #1e2019;
+    color: #333;
     display: block;
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input[type="text"]:focus,
@@ -198,18 +186,20 @@ input[type="number"]:focus {
 input[type="text"]:required:valid,
 input[type="email"]:required:valid,
 input[type="number"]:required:valid {
-    border-bottom-color: #71f79f;
-    font-family: "Benchnine", monospace;
+    border-bottom-color: #rgb(151, 111, 73);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    color: #1e2019;
+    color: #333;
 }
 
 input[type="text"]:not(:placeholder-shown):invalid,
 input[type="email"]:not(:placeholder-shown):invalid,
 input[type="number"]:not(:placeholder-shown):invalid {
     border-bottom-color: #c61a3a;
-    font-family: "Benchnine", monospace;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
     font-size: 18px;
-    color: #1e2019;
+    color: #333;
 
     /* use css variables /*
