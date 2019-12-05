@@ -1,5 +1,139 @@
+body {
+    background-color: whitesmoke;
+}
+
 section {
     padding: 100px 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0.75em 1em;
+    font-size: 1.25em;
+}
+
+nav a:hover,
+nav a:focus {
+    background: rgb(94, 94, 94);
+}
+
+nav li {
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    background: rgb(151, 111, 73);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.splash {
+    color: #333;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+
+
+h1 {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+h3 {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "merriweather", serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.professor {
+    display: inline-block;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+
+}
+
+.t {
+    background: rgb(151, 111, 73);
+
+}
+
+.times {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-left: 100%;
+    width: 20%;
+    height: 20%;
+}
+
+.set {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+ol {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: whitesmoke;
+
+}
+
+.wrap {
+    background-color: #333;
+}
+
+.signup {
+    background-color: whitesmoke;
+}
+
+.schedule {
+    color: whitesmoke;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    margin-left: 100px;
+}
+
+.box {
+    padding: 10px;
+}
+
 
 /* use css variables /*
