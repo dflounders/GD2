@@ -105,6 +105,15 @@ h3 {
     font-size: 20px;
 }
 
+div {
+    display: block;
+}
+
+img {
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
 .set {
     font-size: 24px;
     color: whitesmoke;
@@ -171,7 +180,7 @@ ol {
         font-size: 24px;
     }
 
-
+    w
 }
 
 @media (max-width:680px) {
