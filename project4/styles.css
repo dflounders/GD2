@@ -4,7 +4,7 @@ body {
 }
 
 section {
-    padding: 100px 30px;
+    padding: 70px 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -92,6 +92,7 @@ h3 {
 
 .g {
     color: #333;
+    padding-top: 5%;
 }
 
 .t {
@@ -150,17 +151,16 @@ ol {
     grid-template-columns: 1fr 200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10%;
+    padding: 20%;
 }
 
 @media (max-width:480px) {
     .wrapper {
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 400px;
+        margin-left: 10%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
         padding-left: 0;
+        grid-template-columns: 1fr 200px;
+
     }
 
     .times {
@@ -185,7 +185,8 @@ ol {
 
 @media (max-width:680px) {
     .wrapper {
-        grid-template-columns: repeat(2, 1fr 120px);
+        margin-left: 10%;
+        grid-template-columns: 1fr 200px;
     }
 }
 
@@ -229,6 +230,7 @@ label {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
 }
 
 input[type="radio"] {
@@ -245,6 +247,7 @@ input[type="radio"] {
 input[type="radio"],
 input[type="radio"]+label {
     display: inline-block;
+    padding-top: 5%;
 }
 
 input[type="radio"]:checked {
@@ -271,6 +274,7 @@ input[type="number"] {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
 }
 
 input[type="text"]:focus,
@@ -283,8 +287,8 @@ button {
     border: 0;
     outline: none;
     border-radius: 5%;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: "merriweather", serif;
@@ -292,8 +296,7 @@ button {
     background: rgb(151, 111, 73);
     color: whitesmoke;
     margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 30%;
+    margin-top: 15%;
 }
 
 button:hover {
@@ -346,7 +349,7 @@ button:hover {
 
 .contacts {
     color: whitesmoke;
-    padding-top: 5%;
+    padding-top: 2%;
     text-align: center;
 }
 
