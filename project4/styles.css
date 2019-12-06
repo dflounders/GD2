@@ -104,6 +104,7 @@ h3 {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    color: whitesmoke;
 }
 
 div {
@@ -149,18 +150,18 @@ ol {
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20%;
+    padding-left: 10%;
+    margin-right: 20%;
+
 }
 
 @media (max-width:480px) {
     .wrapper {
-        margin-left: 10%;
         display: grid;
         padding-left: 0;
         grid-template-columns: 1fr 200px;
-
+        padding-left: 10%;
+        margin-right: 0;
     }
 
     .times {
@@ -185,8 +186,9 @@ ol {
 
 @media (max-width:680px) {
     .wrapper {
-        margin-left: 10%;
         grid-template-columns: 1fr 200px;
+        padding-left: 10%;
+        margin-right: 0;
     }
 }
 
@@ -254,11 +256,6 @@ input[type="radio"]:checked {
     background-color: #333;
 }
 
-input[type="radio"]:checked+label {
-    text-decoration: underline;
-    text-decoration-color: #333;
-}
-
 input[type="radio"]:hover {
     background-color: #333;
 }
@@ -268,13 +265,13 @@ input[type="email"],
 input[type="number"] {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     color: #333;
     display: block;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5%;
+    padding-top: 1%;
 }
 
 input[type="text"]:focus,
