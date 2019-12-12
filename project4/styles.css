@@ -40,12 +40,6 @@ nav li {
     font-weight: 400;
 }
 
-.name {
-    font-family: "merriweather", serif;
-    font-weight: 700;
-    font-size: 24px;
-}
-
 .splash {
     color: #333;
     width: 100%;
@@ -57,12 +51,10 @@ nav li {
 
 
 h1 {
-    display: inline-block;
-    text-decoration: none;
     font-family: "merriweather", serif;
     font-weight: 700;
     font-size: 48px;
-
+    margin-left: 2%;
 }
 
 h2 {
@@ -75,19 +67,40 @@ h2 {
 }
 
 h3 {
-    display: inline-block;
-    text-decoration: none;
     font-family: "merriweather", serif;
     font-weight: 400;
 }
 
+.names {
+    display: none;
+    font-family: "merriweather", serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
 
-.professor {
-    display: inline-block;
-    padding: 2%;
+.professorone {
+    color: whitesmoke;
     margin-left: auto;
     margin-right: auto;
+}
+
+.professortwo {
     color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.professorthree {
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photos {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .g {
@@ -113,7 +126,10 @@ div {
 
 img {
     height: 300px;
+    width: 300px;
     background-repeat: no-repeat;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .set {
@@ -135,6 +151,15 @@ ol {
 
 }
 
+.intro {
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.introtwo {
+    margin-left: 2%;
+}
+
 .wrap {
     background-color: #333;
 }
@@ -152,7 +177,6 @@ ol {
     grid-template-columns: 1fr 200px;
     padding-left: 10%;
     margin-right: 20%;
-
 }
 
 @media (max-width:480px) {
@@ -181,7 +205,7 @@ ol {
         font-size: 24px;
     }
 
-    w
+
 }
 
 @media (max-width:680px) {
@@ -205,12 +229,15 @@ fieldset {
     display: block;
     border: 0;
     appearance: none;
+}
 
+.blob {
+    padding-left: 25%;
 }
 
 .radio {
     display: block;
-    width: 50%;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -249,7 +276,6 @@ input[type="radio"] {
 input[type="radio"],
 input[type="radio"]+label {
     display: inline-block;
-    padding-top: 5%;
 }
 
 input[type="radio"]:checked {
