@@ -225,6 +225,14 @@ ol {
     label {
         font-size: 18px;
     }
+
+    .statistic {
+        font-size: 18px;
+    }
+
+    .statistictwo {
+        font-size: 18px;
+    }
 }
 
 @media (max-width:680px) {
@@ -242,6 +250,15 @@ ol {
         padding-left: 80px;
         padding-right: 80px;
     }
+
+    .statistic {
+        font-size: 26px;
+    }
+
+    .statistictwo {
+        font-size: 26px;
+    }
+
 }
 
 
