@@ -153,10 +153,13 @@ ol {
 
 .intro {
     padding-top: 2%;
+    padding-left: 2%;
     margin-left: 2%;
+
 }
 
 .introtwo {
+    padding-left: 2%;
     margin-left: 2%;
 }
 
@@ -176,7 +179,6 @@ ol {
     display: grid;
     grid-template-columns: 1fr 200px;
     padding-left: 10%;
-    margin-right: 20%;
 }
 
 @media (max-width:480px) {
@@ -191,7 +193,8 @@ ol {
     .times {
         font-family: 'Nanum Gothic', sans-serif;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 16px;
+        text-align: center;
     }
 
     .set {
@@ -205,7 +208,22 @@ ol {
         font-size: 24px;
     }
 
+    img {
+        height: 150px;
+        width: 150px;
+        background-repeat: no-repeat;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 
+    button {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    label {
+        font-size: 18px;
+    }
 }
 
 @media (max-width:680px) {
@@ -213,6 +231,15 @@ ol {
         grid-template-columns: 1fr 200px;
         padding-left: 10%;
         margin-right: 0;
+    }
+
+    .times {
+        text-align: center;
+    }
+
+    button {
+        padding-left: 80px;
+        padding-right: 80px;
     }
 }
 
