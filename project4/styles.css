@@ -182,85 +182,6 @@ ol {
     padding-left: 10%;
 }
 
-@media (max-width:480px) {
-    .wrapper {
-        display: grid;
-        padding-left: 0;
-        grid-template-columns: 1fr 200px;
-        padding-left: 10%;
-        margin-right: 0;
-    }
-
-    .times {
-        font-family: 'Nanum Gothic', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .set {
-        font-size: 18px;
-        color: whitesmoke;
-    }
-
-    .statistic {
-        font-family: "merriweather", serif;
-        font-weight: 700;
-        font-size: 24px;
-    }
-
-    img {
-        height: 150px;
-        width: 150px;
-        background-repeat: no-repeat;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
-
-    button {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    label {
-        font-size: 18px;
-    }
-
-    .statistic {
-        font-size: 18px;
-    }
-
-    .statistictwo {
-        font-size: 18px;
-    }
-}
-
-@media (max-width:680px) {
-    .wrapper {
-        grid-template-columns: 1fr 200px;
-        padding-left: 10%;
-        margin-right: 0;
-    }
-
-    .times {
-        text-align: center;
-    }
-
-    button {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-
-    .statistic {
-        font-size: 26px;
-    }
-
-    .statistictwo {
-        font-size: 26px;
-    }
-
-}
-
 
 .box {
     padding: 10px;
@@ -433,6 +354,85 @@ button:hover {
     color: whitesmoke;
     padding-top: 2%;
     text-align: center;
+}
+
+@media (max-width:480px) {
+    .wrapper {
+        display: grid;
+        padding-left: 0;
+        grid-template-columns: 1fr 200px;
+        padding-left: 10%;
+        margin-right: 0;
+    }
+
+    .times {
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .set {
+        font-size: 18px;
+        color: whitesmoke;
+    }
+
+    .statistic {
+        font-family: "merriweather", serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        background-repeat: no-repeat;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    button {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    label {
+        font-size: 18px;
+    }
+
+    .statistic {
+        font-size: 18px;
+    }
+
+    .statistictwo {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:680px) {
+    .wrapper {
+        grid-template-columns: 1fr 200px;
+        padding-left: 10%;
+        margin-right: 0;
+    }
+
+    .times {
+        text-align: center;
+    }
+
+    button {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .statistic {
+        font-size: 26px;
+    }
+
+    .statistictwo {
+        font-size: 26px;
+    }
+
 }
 
 /* use css variables /*
